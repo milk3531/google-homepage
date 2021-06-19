@@ -1,0 +1,30 @@
+.Header {
+    font-family:arial,sans-serif;
+    font-size: 14px;
+    color:#222;
+    display:inline-block;
+    position:relative;
+   
+}
+
+.About {
+    margin-left:15px;
+    margin: -10px 0 0 0;
+
+}
+
+.Store {
+    margin: -10px 0 0 100px;
+}
+
+.Gmail {
+    margin: -10px 0 0 1300px;
+}
+
+.Images{
+    margin: -10px 0 0 1400px;
+}
+.Google-HomePage{
+    margin: 0 0 0 700px;
+}
+
