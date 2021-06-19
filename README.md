@@ -1,0 +1,1 @@
+The point of this project is to demonstrate the basic abilities to replicate an existing website. This will be done through the use of both HTML and CSS. 
