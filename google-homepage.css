@@ -2,29 +2,41 @@
     font-family:arial,sans-serif;
     font-size: 14px;
     color:#222;
-    display:inline-block;
-    position:relative;
+    display:inline;
+    /* position:relative; */
+    vertical-align: bottom;
    
 }
 
-.About {
-    margin-left:15px;
-    margin: -10px 0 0 0;
-
+.Headers{
+   
 }
-
-.Store {
-    margin: -10px 0 0 100px;
+ul {
+    /* This gets rid of the bullet points in front of list */
+    list-style-type: none;
+    /* To get rid of the space where bullets were, we use margin and padding */
+    margin:0;
+    padding:0;
 }
-
-.Gmail {
-    margin: -10px 0 0 1300px;
+li {
+     float:left;
+    
 }
-
-.Images{
-    margin: -10px 0 0 1400px;
+.left-top {
+    margin-left: 30px;
+}
+.right-top{
+    margin-left: 30px;
+    float:right;
 }
 .Google-HomePage{
     margin: 0 0 0 700px;
+}
+.buttons {
+    margin: -100px 0 0 700px;
+   
+}
+.search-bar {
+    border-radius: 25px;
 }
 
