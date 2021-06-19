@@ -8,8 +8,14 @@
    
 }
 
-.Headers{
-   
+.Headers {
+    margin-top:2em;
+    font-size: 14px;
+    font-family:arial,sans-serif;
+ 
+}
+.Headers a {
+    text-decoration: none;
 }
 ul {
     /* This gets rid of the bullet points in front of list */
@@ -20,7 +26,25 @@ ul {
 }
 li {
      float:left;
-    
+}
+img {
+    border-radius: 10%;
+}
+input {
+    width:550px;
+    height: 40px;
+}
+.buttons {
+    background-color: #222;
+    background: none;
+    position:relative;
+    top:100px;
+    right: 475px;
+}
+.Google-waffle {
+    width: 18px;
+    box-shadow:0 1px 1px rgba(0,0,0,0)
+
 }
 .left-top {
     margin-left: 30px;
@@ -28,15 +52,23 @@ li {
 .right-top{
     margin-left: 30px;
     float:right;
+    font-size:13px;
+   
 }
 .Google-HomePage{
     margin: 0 0 0 700px;
-}
-.buttons {
-    margin: -100px 0 0 700px;
+    text-align:center;
+    margin-top:150px;
    
 }
+
 .search-bar {
     border-radius: 25px;
 }
+.body-content {
+    display:inline-block;
+    margin-left:750px;
+    margin-top: 17px;
+}
+
 
