@@ -99,7 +99,7 @@ p {
     
 }
 .search-bar:hover {
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px rgba(0,0,0,1);
 }
 
 .search-bar {
@@ -111,14 +111,16 @@ p {
     right:20%;
     background-color: transparent;
     outline: none;
+    /* How to have an image inside a text-field Left side */
+    background-image: url("magnifying-glass-1976105_1280.png"), url("magnifying-glass-1976105_1280.png");
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: center;
+    padding-left:45px;
+    
 }
-.left-circle-search {
-    background-image:url("magnifying-glass-1976105_1280.png");
-    margin-top: 2.5em;
-    right:30%;
-    height:30px;
-    width:30px;
-}
+
 
 .right-circle-search {
 
@@ -138,11 +140,10 @@ body {
     padding-top:100px;
     padding-left:300px;
     /* I guess it's at the center? */
-  
-
-    
-
 }
+
+
+
 .bottom-left {
     margin-left:30px;
     }
