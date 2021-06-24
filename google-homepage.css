@@ -36,27 +36,37 @@ input {
     width:550px;
     height: 40px;
 }
+.button-Google-Search {
+    display:inline-block;
+}
+
+.button-Lucky{
+    display: inline-block;
+}
+
 .buttons{
-    display:inline-flex;
-    float:right;
+    display:inline-block;
     background-color:#f8f9fa;
+    margin-top:2em;
+    margin-left:0.5em;
+    padding:8px;
+
     /* top:100px;
     right: 475px; */
     color: #202124;
     border: 1px solid #dadce0;
-    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    /* box-shadow: 0 1px 1px rgba(0,0,0,.1);
     padding:10px 16px;
     font-family: arial,sans-serif;
     font-size:14px;
     margin-right: 10px;
-    max-width:54px;
+    max-width:54px; */
   
 }
 
 .Google-waffle {
     width: 18px;
     box-shadow:0 1px 1px rgba(0,0,0,0)
-
 }
 .left-top {
     margin-left: 30px;
@@ -74,17 +84,50 @@ input {
     */
 }
 p {
-    text-indent:30px;
+    margin-top:3em;
+    font-size:14px;
+    display:flex;
+    align-self:center;
+    
+}
+
+ a {
+    text-indent: 10px;
+    word-spacing: 3px;
+    display:flex;
+    align-self:center;
+    
+}
+.search-bar:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 .search-bar {
     border-radius: 25px;
     /* Percentage is relative to the width of the container block */
-    
+    border: 1px solid #dadce0;
+    position:relative;
+    margin-top: 2.5em;
+    right:20%;
+    background-color: transparent;
+    outline: none;
 }
+.left-circle-search {
+    background-image:url("magnifying-glass-1976105_1280.png");
+    margin-top: 2.5em;
+    right:30%;
+    height:30px;
+    width:30px;
+}
+
+.right-circle-search {
+
+}
+
 body {
     /* This will hide vertical and horizontal scroll bars */
     overflow:hidden;
+    
 }
 .body-content {
     /* Let the browser handle margin by using auto */
@@ -109,11 +152,10 @@ body {
     float:right;
 }
 footer { 
-    padding: 10px 30px 40px 0px;
+    padding: 20px 20px 40px 0;
     background:rgba(0,0,0,.54);
-    margin-top:27em;
+    margin-top:16em;
     font-size:14px;
-    text-align:center;
     font-family: arial,sans-serif;
 }
 
